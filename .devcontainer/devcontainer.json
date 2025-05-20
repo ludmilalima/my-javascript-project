@@ -1,0 +1,22 @@
+{
+  "name": "My JavaScript Project",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [9229],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "debug.node.autoAttach": "on"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode-remote.remote-containers",
+        "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "GitHub.copilot-terminal"
+      ]
+    }
+  }
+}
